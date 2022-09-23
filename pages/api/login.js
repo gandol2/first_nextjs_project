@@ -2,7 +2,8 @@ const 원본ID = "ksw";
 const 원본PW = "1234";
 
 export default function handler(req, res) {
-  //   console.log(req.body);
+  console.log("방금 내가 찍은거 ===========");
+  console.log(req.body);
 
   const { id, pw } = req.body;
   console.log(req.body);
